@@ -4259,11 +4259,12 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  margin-right: 1rem;
-  font-size: 1.25rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
   line-height: inherit;
   white-space: nowrap;
 }
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
@@ -9741,9 +9742,8 @@ h5,
 
 .navbar-brand {
   font-weight: 700;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-size: 15px;
+  letter-spacing: 0.8px;
   line-height: 1;
 }
 .navbar-brand small {
@@ -12439,6 +12439,7 @@ svg {
     }
   }
   .logo {
-    height: 50px;
+    height: 50px !important;
+    margin-left: 10px;
   }
 }
